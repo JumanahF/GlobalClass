@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Learning Assistant - Digital Education Resource Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <img src="images/GlobalClass.png" alt="GlobalClass Logo" style="height: 70px;">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="#">Explore</a>
+                        <ul class="dropdown">
+                            <li><a href="resources.html">Resources</a></li>
+                            <li><a href="teacher-network.html">Teacher Network</a></li>
+                            <li><a href="professional-development.html">Professional Development</a></li>
+                            <li><a href="ai-interaction.html">AI Learning Assistant</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- AI Learning Assistant Section -->
+    <section class="ai-interaction">
+        <img src="images/robot.png" alt="AI Learning Assistant" style="width: 200px;"> <!-- Robot image -->
+        <h2>AI Learning Assistant</h2>
+        <p>Hi! I'm your AI Learning Assistant here to answer any educational questions you have. Ask away!</p>
+        <div class="ai-form">
+            <input type="text" id="aiQuestion" placeholder="Enter your question here..." aria-label="Enter your question">
+            <button onclick="submitQuestion()">Ask</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us at <a href="mailto:info@GlobalClass.com">info@GlobalClass.com</a></p>
+    </footer>
+</body>
+</html>
